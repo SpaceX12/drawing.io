@@ -11,17 +11,13 @@ function setup(){
   createCanvas(500,500);
 
   canvas.mousePressed(startPath);
-  canvas.mouseRelesead(endPath);
-}
+}  
+
 
 function startPath(){
   currentPath = [];
   drawing.push(currentPath);
-
 }
-/*function endPath(){
-  
-}*/
 
 
 function draw(){
